@@ -1,2 +1,8 @@
 #!/usr/bin/env node
-console.log( "MB2100series_3DAFE8000000 webOS_TV_43UN68006LA LDPC_Sergey__Chernov_(DESCTOP-O60CMKL)" );
+let message = "Hello, ";
+let name = process.argv[2];
+if (name == undefinded) {
+  name = "";
+}
+message = message + name;
+console.log( message );
