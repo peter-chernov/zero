@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/petr-chernov/zero#readme",
   "bin": {
-    "hi": "./index.js"
+    "zero": "./index.js"
   }
 }
